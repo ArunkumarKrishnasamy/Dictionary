@@ -1,0 +1,28 @@
+.title {
+  font-size: 5vw;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+@media screen {
+  .title {
+    font-size: 6vw;
+  }
+  .search {
+    width: 50%;
+  }
+}
+.inputfield {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.search {
+  border-bottom: 5px solid black;
+  width: 80%;
+  color: white;
+}
+.language {
+  width: 150px;
+  margin-top: 10px;
+}
